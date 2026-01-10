@@ -6,10 +6,14 @@ app = FastAPI()
 
 QUOTES = [
     "They keep saying that sea levels are rising an' all this. It's nowt to do with the icebergs melting, it's because there's too many fish in it. Get rid of some of the fish and the water will drop. Simple. Basic science.",
-"I always have a problem liking things that I'm told I should like. This has been the problem with most of the Wonders I have seen so far. The fact that this one is called the 'Great' Wall of China annoys me. I'll decide if it's great or not. It might end up being the 'All Right Wall of China' to me."
+"I always have a problem liking things that I'm told I should like. This has been the problem with most of the Wonders I have seen so far. The fact that this one is called the 'Great' Wall of China annoys me. I'll decide if it's great or not. It might end up being the 'All Right Wall of China' to me.",
+    "I find that if you just talk, your mouth comes up with stuff.",
+    "The problem I have with all this religion stuff is that I can't relate to it. I think most people got into 'cos it gave them something to do on a Sunday, but since all the shops are now open it isn't required as much.",
+    "It's interesting to see that people had so much clutter even thousands of years ago. The only way to get rid of it all was to bury it, and then some archaeologist went and dug it all up.",
+    "he problem is, these days you have to listen to too many parts of your body. Sometimes I go with my gut feeling, some say go with what your heart says - it's only a matter of time before my appendix will have an opinion. This is probably why there are so many helplines these days. No one knows who to bloody listen to!"
 ]
 
-@app.get("/quote")
+@app.get("/random")
 def get_random_quote():
     return {"quote": random.choice(QUOTES)}
 
