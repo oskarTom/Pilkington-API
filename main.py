@@ -16,7 +16,9 @@ QUOTES = [
     "Stephen Hawking you see – that's almost like it's not his body. It's like this brain's come from somewhere – this, you know, magnificent brain – and it's just overpowered the rest of the body to the point that there's no energy for that rest of the body to do anything, and it just sits there with the brain throbbing, thinking of stuff.",
     "There was some women in a café the other week that I was sat in, and she came up and she sat down with her mate and she was talkin' loudly goin' on about \"oh the baby's lovely.\" They said it's got, er, lovely big eyes, er, really big hands and feet. Now that doesn't sound like a nice baby to me. I felt like sayin' it sounds like a frog. But I thought I don't know her, there's only so much you can say to a stranger. I don't know what kept me from sayin' it",
     "Maybe this is how Michael Jackson came up with his moonwalk. Maybe he was acting out a time when he stepped in dogshit and tried to get it off his shoes.",
-    "The best thing about me is probably my eyes, but then I suppose my eyes would think that, as it’s them that are looking at them."
+    "The best thing about me is probably my eyes, but then I suppose my eyes would think that, as it’s them that are looking at them.",
+    "The only time I've wanted a wig was when I did jury duty once. It was annoying that I was sat on a jury right in front of like these criminals. Everybody else has got disguises, the judges have them wigs on.",
+    "Louis Armstrong did that 'What A Wonderful World' song... I don't know what he's going on about."
 ]
 
 @app.get("/random")
